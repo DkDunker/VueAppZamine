@@ -1,0 +1,56 @@
+ActionBar {
+    background-color: #f47b20;
+    color: #ffffff;
+}
+.title {
+    text-align: left;
+    padding-left: 16;
+}
+CheckBox {
+    color: white;
+    font-size: 20;
+}
+.btn {
+    android-elevation: 4;
+    font-weight: bold;
+    border-radius: 10;
+    border-width: 1;
+    padding-top: 5;
+    padding-bottom: 5;
+    text-transform: uppercase;
+    letter-spacing: 0.1;
+}
+
+.btn-zamine-transparente:active {
+    android-elevation: 8;
+    border-radius: 10;
+    border-color: #f47b20;
+    border-width: 1;
+    color: #f47b20;
+    padding-top: 5;
+    padding-bottom: 5;
+    text-transform: uppercase;
+    letter-spacing: 0.1;
+}
+
+.btn-cancelar {
+    background-color: white;
+    border-color: #afafaf;
+    border-width: 1;
+    color: #919191;
+}
+
+.btn-cancelar:active {
+    android-elevation: 2;
+}
+.btn-confirmar {
+    background-color: #f47b20;
+    border-color: #dc6702;
+    border-width: 1;
+    color: white;
+}
+
+.error-input-form {
+    margin-top: -10;
+    margin-left: 10;
+}
